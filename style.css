@@ -3,3 +3,99 @@
   margin: 0;
   padding: 0;
 }
+
+@font-face {
+  font-family: "Gotham";
+  src: url(./Assets/Fonts/gotham_ssv/Gotham-Light.otf);
+}
+
+/* Navbar section */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 100px;
+  background-color: #383838;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  display: flex;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.logo svg {
+  width: auto;
+  color: #d35266;
+  font-size: 50px;
+}
+
+.logo div {
+  padding: 0 20px;
+  color: #fff;
+  align-self: center;
+}
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.navbar-items a {
+  text-decoration: none;
+}
+
+.nav-elements {
+  display: flex;
+  padding: 0 10px;
+}
+
+.navbar-items a .nav-elements:hover {
+  color: #fff;
+}
+
+.nav-elements svg {
+  margin: 0 10px;
+}
+
+.navbar-items a:nth-child(1) {
+  color: #d35266;
+}
+
+.nav-elements button {
+  background-color: #d35266;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.navbar-items a:nth-child(2),
+.navbar-items a:nth-child(3) {
+  color: #888;
+}
+
+.acoount-section {
+  display: flex;
+  align-items: center;
+}
+
+.acoount-section > * {
+  margin: 0 10px;
+  width: auto;
+}
+
+.acoount-section h5 {
+  color: #fff;
+}
+
+.acoount-section svg {
+  color: #888;
+}
+
+nav img {
+  border-radius: 50%;
+  height: 45px;
+}
