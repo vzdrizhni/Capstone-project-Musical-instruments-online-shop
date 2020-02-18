@@ -9,6 +9,11 @@
   src: url(./Assets/Fonts/gotham_ssv/Gotham-Light.otf);
 }
 
+@font-face {
+  font-family: "Neue";
+  src: url(Assets/Fonts/HelveticaNeueCyr-Bold.ttf);
+}
+
 /* Navbar section */
 nav {
   display: flex;
@@ -98,4 +103,50 @@ nav {
 nav img {
   border-radius: 50%;
   height: 45px;
+}
+
+header {
+  background-color: #d35266;
+  padding: 80px 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.slogan {
+  font-size: 50px;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+}
+
+header h3 {
+  font-size: 20px;
+  padding: 7px 0;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+}
+
+header form {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 0.5fr;
+  grid-template-rows: 47px;
+  width: 100%;
+  padding: 30px 0;
+}
+
+header input::placeholder {
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 3vh;
+}
+
+header button {
+  background-color: #383838;
+  color: #888;
+  border: none;
+  padding: 0 20px;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 3vh;
+}
+
+ select {
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 3vh;
 }
