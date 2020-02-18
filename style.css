@@ -408,6 +408,9 @@ footer li {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+  padding: 10px 0;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
 }
 
 .logo-footer h1 {
@@ -514,4 +517,35 @@ footer li {
 .currency span:first-child {
   color: #d35266;
   padding: 5px;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px 0;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #888;
+}
+
+.bottom-section a {
+  color: #d35266;
+  text-decoration: none;
+}
+
+.copyright {
+  align-self: center;
+}
+
+.social-icons {
+  font-size: 30px;
+}
+
+.social-icons a {
+  color: #888;
+}
+
+.social-icons a:hover {
+  color: #383838;
 }
