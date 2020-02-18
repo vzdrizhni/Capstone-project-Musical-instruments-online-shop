@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Styles/searchStyle.css">
+  <script src="https://kit.fontawesome.com/d4de0f4540.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <i class="fas fa-drum"></i>
+      <div>MUSIX</div>
+    </div>
+    <div class="navbar-items">
+      <a href="#">
+        <div class="nav-elements">
+          <i class="fas fa-home"></i>
+          <h5>HOME</h5>
+        </div>
+      </a>
+      <a href="#">
+        <div class="nav-elements">
+          <i class="fab fa-microsoft"></i>
+          <h5>COLLECTIONS</h5>
+        </div>
+      </a>
+      <a href="#">
+        <div class="nav-elements">
+          <i class="fas fa-shopping-cart"></i>
+          <h5>PURCHASE LIST</h5>
+        </div>
+      </a>
+      <div class="nav-elements">
+        <button>POST AN AD</button>
+      </div>
+    </div>
+    <div class="acoount-section">
+      <i class="fas fa-envelope"></i>
+      <h5>John Doe</h5>
+      <img src="./Assets//Pictures/randomguy.jpg" alt="">
+    </div>
+  </nav>
+  <header>
+    <div class="slogan">
+      <h1>MUSIX</h1>
+    </div>
+    <h3>Bring's a lot better experience you've ever had</h3>
+    <form action="searchresult.html">
+      <select name="instruments" id="inst">
+        <option value="Guitars">Guitars</option>
+        <option value="Drums">Drums</option>
+        <option value="Piano">Piano</option>
+        <option value="Cellos">Cellos</option>
+        <option value="Violins">Violins</option>
+      </select>
+      <input type="text" placeholder="Enter an instrument name here">
+      <input type="text" placeholder="Location">
+      <button>SEARCH</button>
+    </form>
+  </header>
+  <div class="main-search-window">
+    <div class="filter">
+      <div class="rent-and-own">
+        <div class="rent">
+          <input type="checkbox" id="rent">
+          <label for="rent">Rent</label>
+        </div>
+        <div class="own">
+          <input type="checkbox" id="own">
+          <label for="own">Ownership</label>
+        </div>
+      </div>
+      <div class="filter-type">
+        <h4>Type</h4>
+        <form action="#">
+          <div class="chaeck-wrapper">
+          <input type="checkbox" id="Entire">
+          <label for="Entire">Entire Place</label>
+        </div>
+        <div class="chaeck-wrapper">
+          <input type="checkbox" id="private">
+          <label for="private">Private Room</label>
+        </div>
+        <div class="chaeck-wrapper">
+          <input type="checkbox" id="share">
+          <label for="share">Shared Room</label>
+        </div>
+        </form>
+      </div>
+      <div class="filter-type">
+        <h4>Size</h4>
+        <form action="#">
+          <div class="chaeck-wrapper">
+          <input type="checkbox" id="two-four">
+          <label for="Entire">2-4 Rooms</label>
+        </div>
+        <div class="chaeck-wrapper">
+          <input type="checkbox" id="five-plus">
+          <label for="five-plus">5+ Rooms</label>
+        </div>
+        <div class="chaeck-wrapper">
+          <input type="checkbox" id="custom">
+          <label for="custom">Custom</label>
+          <input type="text">
+        </div>
+        </form>
+      </div>
+      <div class="filter-type">
+        <h4>Price Range</h4>
+        <form action="#">
+          <div class="chaeck-wrapper">
+          <input type="checkbox" id="10-100">
+          <label for="10-100">10$ - 100$</label>
+        </div>
+        <div class="chaeck-wrapper">
+          <input type="checkbox" id="100-500">
+          <label for="100-500">100$ - 500$</label>
+        </div>
+        <div class="chaeck-wrapper">
+          <input type="checkbox" id="500-1000">
+          <label for="500-1000">500$ - 1000$</label>
+        </div>
+        <div class="chaeck-wrapper">
+          <input type="checkbox" id="10000">
+          <label for="10000">+10000$</label>
+        </div>
+        </form>
+      </div>
+    </div>
+    <div class="rsult-window">
+      <h4>138 Results for "Flat" Search at Sans Franscisco in Category Real Estate</h4>
+    </div>
+  </div>
+</body>
+
+</html>

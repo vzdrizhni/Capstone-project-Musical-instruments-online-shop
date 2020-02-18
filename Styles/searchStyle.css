@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url(./Assets/Fonts/gotham_ssv/Gotham-Light.otf);
+}
+
+@font-face {
+  font-family: "Neue";
+  src: url(Assets/Fonts/HelveticaNeueCyr-Bold.ttf);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 100px;
+  background-color: #383838;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  display: flex;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.logo svg {
+  width: auto;
+  color: #d35266;
+  font-size: 50px;
+}
+
+.logo div {
+  padding: 0 20px;
+  color: #fff;
+  align-self: center;
+}
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.navbar-items a {
+  text-decoration: none;
+}
+
+.nav-elements {
+  display: flex;
+  padding: 0 10px;
+}
+
+.navbar-items a .nav-elements:hover {
+  color: #fff;
+}
+
+.nav-elements svg {
+  margin: 0 10px;
+}
+
+.navbar-items a:nth-child(1) {
+  color: #d35266;
+}
+
+.nav-elements button {
+  background-color: #d35266;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.navbar-items a:nth-child(2),
+.navbar-items a:nth-child(3) {
+  color: #888;
+}
+
+.acoount-section {
+  display: flex;
+  align-items: center;
+}
+
+.acoount-section > * {
+  margin: 0 10px;
+  width: auto;
+}
+
+.acoount-section h5 {
+  color: #fff;
+}
+
+.acoount-section svg {
+  color: #888;
+}
+
+.acoount-section img {  
+  display: none;
+}
+
+header {
+  background-color: #d35266;
+  padding: 20px 10%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: baseline;
+}
+
+.slogan {
+  font-size: 50px;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+}
+
+header h3 {
+  font-size: 20px;
+  padding: 7px 0;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+}
+
+header form {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 0.5fr;
+  grid-template-rows: 47px;
+  width: 100%;
+  padding: 30px 0;
+}
+
+header input::placeholder {
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 3vh;
+}
+
+header button {
+  background-color: #383838;
+  color: #888;
+  border: none;
+  padding: 0 20px;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 3vh;
+}
+
+select {
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 3vh;
+}
+
+.main-search-window {  
+  display: grid;
+  grid-template-columns: 1.5fr 4fr;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  padding: 25px 5px 25px 65px;
+  border-right: 1px solid #383838;
+  color: #888;
+}
+
+.rent-and-own {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-type {
+  padding: 15px 0;  
+}
+
+.filter-type form {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-type form input {
+  align-self: center;
+  margin: 0 3px;
+}
+
+.chaeck-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 7px 0;
+  align-content: center;
+}
+
+.filter-type h4 {
+  border-bottom: 1px solid #383838;
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+
+.rsult-window {
+
+}
+
+.rsult-window h4 {
+  grid-column: 2 / -1;
+  align-self: center;
+  border-bottom: #383838;
+}
