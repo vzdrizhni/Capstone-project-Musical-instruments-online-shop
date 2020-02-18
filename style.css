@@ -396,7 +396,122 @@ main {
 }
 
 /* top-footer */
+footer {
+  padding: 10px 30px;
+}
+
+footer li {
+  list-style: none;
+}
+
 .top-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.logo-footer h1 {
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #383838;
+}
+
+.logo-footer p {
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #383838;
+  line-height: 24px;
+}
+
+.categories-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20px 1fr;
+}
+
+.categories-footer h2 {
+  grid-column: 1 / span 2;
+  font-family: "Gotham" Arial, Helvetica, sans-serif;
+  color: #d35266;
+  font-size: 18px;
+  border-bottom: 1px solid #d35266;
+  font-weight: 500;
+}
+
+.categories-footer ul li {
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.categories-footer ul li a {
+  color: #888;
+  text-decoration: none;
+}
+
+.categories-footer ul li a:hover {
+  color: #d35266;
+}
+
+.navigation-footer h2 {
+  height: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "Gotham" Arial, Helvetica, sans-serif;
+  color: #d35266;
+  font-size: 18px;
+  border-bottom: 1px solid #d35266;
+  font-weight: 500;
+}
+
+.navigation-footer ul li {
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.navigation-footer ul li a {
+  color: #888;
+  text-decoration: none;
+}
+
+.navigation-footer ul li a:hover {
+  color: #d35266;
+}
+
+.country-footer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.country-footer div {
+  padding: 20px 0;
+}
+
+.country span:last-child,
+.language span:last-child,
+.currency span:last-child {
+  width: 60%;
+  border: 1px solid #888;
+  display: block;
+  text-align: center;
+  color: #888;
+  padding: 5px;
+}
+
+.country,
+.language,
+.currency {
+  display: flex;
+  justify-content: space-between;
+}
+
+.country span:first-child,
+.language span:first-child,
+.currency span:first-child {
+  color: #d35266;
+  padding: 5px;
 }
