@@ -311,7 +311,7 @@ main {
 }
 
 .guitars:hover {
-  box-shadow: 5px 10px 8px 10px #888888;
+  box-shadow: 5px 10px 8px 10px #888;
 }
 
 /* Base guitar section */
@@ -360,7 +360,7 @@ main {
 
 /* Drum section */
 .drums-section .guitars .img-container:first-child {
-  background: url(https://bcrich.com/wp-content/uploads/2019/08/CKW4MBSB-Master-Web.jpg);
+  background: url(https://cdn.shopify.com/s/files/1/0277/2835/products/SET.jpg?v=1578581079);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -369,7 +369,7 @@ main {
 }
 
 .drums-section .guitars:nth-child(2) .img-container {
-  background: url(https://bcrich.com/wp-content/uploads/2020/02/HCMBTR-FULL-FRONT.png);
+  background: url(https://cdn.shopify.com/s/files/1/0277/2835/products/untitled_61a41998-307d-45ba-98ac-2ae09a26dfdc.jpg?v=1579793551);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -377,8 +377,8 @@ main {
   height: 150px;
 }
 
-.base-guitar-section .guitars:nth-child(3) .img-container {
-  background: url(https://bcrich.com/wp-content/uploads/2019/12/widow5_4.jpg);
+.drums-section .guitars:nth-child(3) .img-container {
+  background: url(https://cdn.shopify.com/s/files/1/0277/2835/products/Edits_1.jpg?v=1575933548);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -386,11 +386,17 @@ main {
   height: 150px;
 }
 
-.base-guitar-section .guitars:last-child .img-container {
-  background: url(https://images.equipboard.com/uploads/item/image/36784/b-c-rich-beast-bass-xl.jpg?v=1573996337);
+.drums-section .guitars:last-child .img-container {
+  background: url(https://cdn.shopify.com/s/files/1/0277/2835/products/16_CR_1.jpg?v=1575933599);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   position: relative;
   height: 150px;
+}
+
+/* top-footer */
+.top-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
