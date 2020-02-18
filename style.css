@@ -152,7 +152,7 @@ select {
 }
 
 main {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   font-family: "Gotham", Arial, Helvetica, sans-serif;
 }
@@ -163,6 +163,8 @@ main {
   grid-template-rows: 250px;
   grid-gap: 10px;
   padding: 25px 0;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .single-product .img-container {
@@ -196,14 +198,14 @@ main {
   align-self: center;
   padding: 20px;
   border: 1px solid black;
-  border-radius: 50%;  
+  border-radius: 50%;
 }
 
 #last-a-link {
   align-self: center;
   padding: 20px;
   border: 1px solid black;
-  border-radius: 50%;  
+  border-radius: 50%;
 }
 
 .produst-description p {
@@ -214,4 +216,96 @@ main {
   padding: 10px 15px;
   background-color: #d35266;
   border: #d35266;
+}
+
+.main-shop-section {
+  background-color: lightgray;
+}
+
+/* Guitar section */
+.guitar-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 10px 30px;
+}
+
+.guitar-description {
+  grid-column: 1 / span 4;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+
+.guitar-description h1 {
+  padding-right: 10px;
+}
+
+.guitars .img-container:first-child {
+  background: url(https://bcrich.com/wp-content/uploads/2019/08/ZOSZAFRBR-Front-Cropped.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  height: 150px;
+}
+
+.guitars:nth-child(2) .img-container {
+  background: url(https://bcrich.com/wp-content/uploads/2019/11/SZA624FRSB-Front.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  height: 150px;
+}
+
+.guitars:nth-child(3) .img-container {
+  background: url(https://bcrich.com/wp-content/uploads/2019/08/EXWBFRSM-Front-Master-Front.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  height: 150px;
+}
+
+.guitars:last-child .img-container {
+  background: url(https://bcrich.com/wp-content/uploads/2019/06/IBEXFRPW-Front-Copy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  height: 150px;
+}
+
+.guitars {
+  background-color: #fff;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+}
+
+.guitars h3,
+.guitars h5 {
+  color: black;
+  font-weight: 700;
+  padding: 0 5px;
+}
+
+.guitars a {
+  text-decoration: none;
+  color: #383838;
+  padding: 0 5px;
+}
+
+.guitars p {
+  padding: 20px 5px;
+}
+
+.price-wrapper {
+  padding: 20px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-wrapper span {
+  color: red;
 }
