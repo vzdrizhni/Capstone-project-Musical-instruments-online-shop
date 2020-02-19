@@ -28,6 +28,7 @@ nav {
   display: flex;
   font-size: 28px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .logo svg {
@@ -75,6 +76,7 @@ nav {
   padding: 10px;
   border-radius: 5px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .navbar-items a:nth-child(2),
@@ -90,6 +92,7 @@ nav {
 .acoount-section > * {
   margin: 0 10px;
   width: auto;
+  cursor: pointer;
 }
 
 .acoount-section h5 {
@@ -144,6 +147,7 @@ header button {
   padding: 0 20px;
   font-family: "Gotham", Arial, Helvetica, sans-serif;
   font-size: 3vh;
+  cursor: pointer;
 }
 
 select {
@@ -212,10 +216,30 @@ main {
   padding: 15px 0;
 }
 
+.produst-description h3 {
+  color: #d35266;
+  font-size: 30px;
+}
+
+.produst-description h3 {
+  padding: 5px 0;
+}
+
+.produst-description span {
+  color: #888;
+}
+
 .produst-description button {
   padding: 10px 15px;
   background-color: #d35266;
-  border: #d35266;
+  border: 1px solid #d35266;
+  color: #fff;
+}
+
+.produst-description button:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #d35266;
 }
 
 .main-shop-section {
@@ -294,6 +318,10 @@ main {
   text-decoration: none;
   color: #383838;
   padding: 0 5px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
 }
 
 .guitars p {
@@ -503,6 +531,7 @@ footer li {
   text-align: center;
   color: #888;
   padding: 5px;
+  cursor: pointer;
 }
 
 .country,

@@ -29,6 +29,10 @@ nav {
   font-weight: bold;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 .logo svg {
   width: auto;
   color: #d35266;
@@ -99,7 +103,7 @@ nav {
   color: #888;
 }
 
-.acoount-section img {  
+.acoount-section img {
   display: none;
 }
 
@@ -149,19 +153,22 @@ select {
   font-size: 3vh;
 }
 
-.main-search-window {  
+.main-search-window {
   display: grid;
   grid-template-columns: 1.5fr 4fr;
 }
 
 .filter {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
   font-family: "Gotham", Arial, Helvetica, sans-serif;
   padding: 25px 5px 25px 65px;
-  border-right: 1px solid #383838;
+  border-right: 1px solid #888;
   color: #888;
+}
+
+.filter-search-result {
+  border-bottom: 1px solid #888;
 }
 
 .rent-and-own {
@@ -198,12 +205,305 @@ select {
   color: black;
 }
 
-.rsult-window {
-
-}
-
 .rsult-window h4 {
   grid-column: 2 / -1;
   align-self: center;
-  border-bottom: #383838;
+  border-bottom: 1px solid #888;
+  padding: 25px 10px;
+  color: #888;
+}
+
+.single-product {
+  display: flex;
+  padding: 15px;  
+}
+
+.single-product .img-container {
+  background: url(https://www.espguitars.ru/netcat_files/multifile/2865/e_ii_horizon_nt_7b_black_satin_l_1.jpg);
+  background-repeat: no-repeat;
+  background-color: #DFE3E4;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  width: 45%;
+}
+
+.filter-search-result:nth-child(3) .img-container {
+  background: url(https://andertons-productimages.imgix.net/378893-1580478773850.png?w=800&h=800&fit=fill&bg=FFFFFF&auto=format&ixlib=imgixjs-3.3.2);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  width: 45%;
+}
+
+.filter-search-result:nth-child(4) .img-container {
+  background: url(https://www.ibanez.com/common/product_artist_file/file/ps_main_eg_rgd_prestige_en.png);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  width: 45%;
+}
+
+.filter-search-result:nth-child(5) .img-container {
+  background: url(https://i.pinimg.com/originals/a7/c5/0f/a7c50fbe2a9124961dc915d7707926b4.jpg);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  width: 45%;
+}
+
+.filter-search-result:nth-child(6) .img-container {
+  background: url(https://www.promusictools.com/media/catalog/product/cache/1/image/1352x901/bd5be3e4bffe87df985139cc5e5c836c/i/b/ibanez-jem777-sk-shocking-pink-30th-anniversary-edition-steve-vai-signature-10-ffffff.jpg);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  width: 45%;
+}
+
+.single-product .img-container a:last-child {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #383838;
+  color: #d35266;
+}
+
+.single-product .img-container a:first-child {
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+  padding: 10px;
+  background-color: #383838;
+  color: #d35266;
+}
+
+#first-a-link {
+  align-self: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+#last-a-link {
+  align-self: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.produst-description {
+  padding: 10px;
+  width: 100%;
+}
+
+.produst-description p {
+  padding: 15px 0;
+  color: #888;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+}
+
+.produst-description h3 {
+  color: #d35266;
+  font-size: 30px;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+}
+
+.produst-description h4 {
+  border: none;
+  padding: 5px 0;
+  color: black;
+  font-weight: 600;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+}
+
+.produst-description span {
+  color: #888;
+  padding: 5px 0;
+}
+
+.produst-description button {
+  padding: 10px 15px;
+  background-color: #d35266;
+  border: 1px solid #d35266;
+  border-radius: 5px;
+  margin: 0 5px;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.produst-description button:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #d35266;
+}
+
+.produst-description .btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+footer {
+  padding: 10px 30px;
+}
+
+footer li {
+  list-style: none;
+}
+
+.top-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 10px 0;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+}
+
+.logo-footer h1 {
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #383838;
+}
+
+.logo-footer p {
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #383838;
+  line-height: 24px;
+}
+
+.categories-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20px 1fr;
+}
+
+.categories-footer h2 {
+  grid-column: 1 / span 2;
+  font-family: "Gotham" Arial, Helvetica, sans-serif;
+  color: #d35266;
+  font-size: 18px;
+  border-bottom: 1px solid #d35266;
+  font-weight: 500;
+}
+
+.categories-footer ul li {
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.categories-footer ul li a {
+  color: #888;
+  text-decoration: none;
+}
+
+.categories-footer ul li a:hover {
+  color: #d35266;
+}
+
+.navigation-footer h2 {
+  height: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "Gotham" Arial, Helvetica, sans-serif;
+  color: #d35266;
+  font-size: 18px;
+  border-bottom: 1px solid #d35266;
+  font-weight: 500;
+}
+
+.navigation-footer ul li {
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.navigation-footer ul li a {
+  color: #888;
+  text-decoration: none;
+}
+
+.navigation-footer ul li a:hover {
+  color: #d35266;
+}
+
+.country-footer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.country-footer div {
+  padding: 20px 0;
+}
+
+.country span:last-child,
+.language span:last-child,
+.currency span:last-child {
+  width: 60%;
+  border: 1px solid #888;
+  display: block;
+  text-align: center;
+  color: #888;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.country,
+.language,
+.currency {
+  display: flex;
+  justify-content: space-between;
+}
+
+.country span:first-child,
+.language span:first-child,
+.currency span:first-child {
+  color: #d35266;
+  padding: 5px;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px 0;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #888;
+}
+
+.bottom-section a {
+  color: #d35266;
+  text-decoration: none;
+}
+
+.copyright {
+  align-self: center;
+}
+
+.social-icons {
+  font-size: 30px;
+}
+
+.social-icons a {
+  color: #888;
+}
+
+.social-icons a:hover {
+  color: #383838;
 }
