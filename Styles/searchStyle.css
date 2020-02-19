@@ -107,6 +107,10 @@ nav a {
   display: none;
 }
 
+.hamb-menu {
+  display: none;
+}
+
 header {
   background-color: #d35266;
   padding: 20px 10%;
@@ -177,7 +181,7 @@ select {
 }
 
 .filter-type {
-  padding: 15px 0;  
+  padding: 15px 0;
 }
 
 .filter-type form {
@@ -215,7 +219,7 @@ select {
 
 .single-product {
   display: flex;
-  padding: 15px;  
+  padding: 15px;
 }
 
 .single-product .img-container {
@@ -506,4 +510,99 @@ footer li {
 
 .social-icons a:hover {
   color: #383838;
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 5px;
+  }
+
+  .navbar-items {
+    flex: inherit;
+  }
+
+  .acoount-section {
+    display: none;
+  }
+
+  header form {
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.5fr 0.25fr;
+    grid-template-rows: 40px;
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .top-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 10px 0;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+  }
+
+  .bottom-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-search-window {
+    display: grid;
+    grid-template-columns: 0.5fr 5fr;
+  }
+
+  .filter {
+    padding: 15px 5px 25px 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-items {
+    display: none;
+  }
+
+  .hamb-menu {
+    display: inline;
+    color: #d35266;
+    font-size: 30px;
+  }
+
+  header form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 35px);
+    grid-column-gap: 5px;
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  header form > * {
+    margin: 3px 0;
+  }
+
+  .single-product {
+    width: 100%;
+  }
+
+  .top-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding: 10px 0;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+  }
+
+  .main-search-window {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .filter {
+    padding: 15px 5px 25px 15px;
+  }
 }
