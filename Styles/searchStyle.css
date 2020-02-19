@@ -68,8 +68,40 @@ nav a {
   margin: 0 10px;
 }
 
+.bottom-section a {
+  color: #d35266;
+  text-decoration: none;
+}
+
+.social-icons a {
+  color: #888;
+}
+
+.categories-footer ul li a {
+  color: #888;
+  text-decoration: none;
+}
+
+.navigation-footer ul li a {
+  color: #888;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #383838;
+}
+
 .navbar-items a:nth-child(1) {
   color: #d35266;
+}
+
+header button {
+  background-color: #383838;
+  color: #888;
+  border: none;
+  padding: 0 20px;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 3vh;
 }
 
 .nav-elements button {
@@ -139,15 +171,6 @@ header form {
 }
 
 header input::placeholder {
-  font-family: "Gotham", Arial, Helvetica, sans-serif;
-  font-size: 3vh;
-}
-
-header button {
-  background-color: #383838;
-  color: #888;
-  border: none;
-  padding: 0 20px;
   font-family: "Gotham", Arial, Helvetica, sans-serif;
   font-size: 3vh;
 }
@@ -225,7 +248,7 @@ select {
 .single-product .img-container {
   background: url(https://www.espguitars.ru/netcat_files/multifile/2865/e_ii_horizon_nt_7b_black_satin_l_1.jpg);
   background-repeat: no-repeat;
-  background-color: #DFE3E4;
+  background-color: #dfe3e4;
   background-position: center;
   background-size: contain;
   position: relative;
@@ -270,6 +293,14 @@ select {
   background-size: contain;
   position: relative;
   width: 45%;
+}
+
+.categories-footer ul li a:hover {
+  color: #d35266;
+}
+
+.navigation-footer ul li a:hover {
+  color: #d35266;
 }
 
 .single-product .img-container a:last-child {
@@ -410,15 +441,6 @@ footer li {
   padding: 5px 0;
 }
 
-.categories-footer ul li a {
-  color: #888;
-  text-decoration: none;
-}
-
-.categories-footer ul li a:hover {
-  color: #d35266;
-}
-
 .navigation-footer h2 {
   height: 20px;
   display: grid;
@@ -434,15 +456,6 @@ footer li {
   font-family: "Gotham", Arial, Helvetica, sans-serif;
   font-size: 16px;
   padding: 5px 0;
-}
-
-.navigation-footer ul li a {
-  color: #888;
-  text-decoration: none;
-}
-
-.navigation-footer ul li a:hover {
-  color: #d35266;
 }
 
 .country-footer {
@@ -491,25 +504,12 @@ footer li {
   color: #888;
 }
 
-.bottom-section a {
-  color: #d35266;
-  text-decoration: none;
-}
-
 .copyright {
   align-self: center;
 }
 
 .social-icons {
   font-size: 30px;
-}
-
-.social-icons a {
-  color: #888;
-}
-
-.social-icons a:hover {
-  color: #383838;
 }
 
 @media screen and (max-width: 1024px) {
