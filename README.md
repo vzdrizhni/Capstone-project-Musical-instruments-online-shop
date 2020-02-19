@@ -1,6 +1,6 @@
-# Building with responsive design
+# Capstoe Project
 
-> TNW Magazine responsive page.
+> Musical Instruments Online Store.
 
 ![screenshot](./Assets/Pictures/screenpic.png)
 
