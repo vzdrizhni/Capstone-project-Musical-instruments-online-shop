@@ -248,6 +248,8 @@ main {
   padding: 20px;
   border: 1px solid black;
   border-radius: 50%;
+  text-decoration: none;
+  color: #d35266;
 }
 
 #last-a-link {
@@ -255,6 +257,8 @@ main {
   padding: 20px;
   border: 1px solid black;
   border-radius: 50%;
+  text-decoration: none;
+  color: #d35266;
 }
 
 .produst-description p {
