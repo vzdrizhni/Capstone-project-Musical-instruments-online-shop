@@ -15,6 +15,10 @@ Project description.
 
 [Live Demo Link](https://rawcdn.githack.com/vzdrizhni/Capstone-project/50ad8fcf6a8014f28bfdbb259324868acaa4dcd2/index.html)
 
+## Video
+
+[Video presentation link](https://www.loom.com/share/302e4cc05e9642b684093becb5f37be8)
+
 
 ## Getting Started
 
@@ -54,7 +58,7 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-## Authors
+## Author
 
 👤 Roman Nikolaev 
 
