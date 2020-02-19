@@ -108,6 +108,10 @@ nav img {
   height: 45px;
 }
 
+.hamb-menu {
+  display: none;
+}
+
 header {
   background-color: #d35266;
   padding: 80px 40px;
@@ -164,7 +168,7 @@ main {
 .single-product {
   display: grid;
   grid-template-columns: 1.2fr  8fr 16fr 1.2fr;
-  grid-template-rows: 250px;
+  grid-template-rows: auto;
   grid-gap: 10px;
   padding: 25px 0;
   width: 80%;
@@ -214,15 +218,17 @@ main {
 
 .produst-description p {
   padding: 15px 0;
+  font-size: 1.5vw;
 }
 
 .produst-description h3 {
   color: #d35266;
-  font-size: 30px;
+  font-size: 3vw;
+  padding: 5px 0;
 }
 
-.produst-description h3 {
-  padding: 5px 0;
+.produst-description h4 {
+  font-size: 2vw;
 }
 
 .produst-description span {
@@ -234,6 +240,12 @@ main {
   background-color: #d35266;
   border: 1px solid #d35266;
   color: #fff;
+  margin: 0 2px;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .produst-description button:hover {
@@ -577,4 +589,127 @@ footer li {
 
 .social-icons a:hover {
   color: #383838;
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 5px;
+  }
+
+  .navbar-items {
+    flex: inherit;
+  }
+
+  .acoount-section {
+    display: none;
+  }
+
+  header form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 40px;
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .guitar-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 10px 30px;
+  }
+
+  .guitar-description {
+    grid-column: 1 / span 2;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+  }
+
+  .base-guitar-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 10px 30px;
+  }
+
+  .top-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 10px 0;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+  }
+
+  .bottom-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-items {
+    display: none;
+  }
+
+  .hamb-menu {
+    display: inline;
+    color: #d35266;
+    font-size: 30px;
+  }
+
+  header form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 35px);
+    grid-column-gap: 5px;
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  header form > * {
+    margin: 3px 0;
+  }
+
+  .single-product {
+    width: 100%;
+  }
+
+  .guitar-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 10px 30px;
+  }
+
+  .guitar-description {
+    grid-column: 1 / span 1;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .base-guitar-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 10px 30px;
+  }
+
+  .top-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding: 10px 0;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+  }
 }
