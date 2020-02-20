@@ -37,9 +37,9 @@ Here are the objectives for this project:
   * tablet: up to 1024px 
 
 * Followed the guidelines of the given design, including:
-* colors
-* typographies: font face, size and weight
-* layout: composition and space between elements, for the 2 given screen sizes
+  * colors
+  * typographies: font face, size and weight
+  * layout: composition and space between elements, for the 2 given screen sizes
 
 ### Built With
 This project was built using these technologies.
@@ -55,12 +55,6 @@ This project was built using these technologies.
 - Github: [@githubhandle](https://github.com/vzdrizhni)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://twitter.com/metabruta)
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page]().
 
 ## Show your support
 
