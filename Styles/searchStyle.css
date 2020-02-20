@@ -122,6 +122,10 @@ header button {
   align-items: center;
 }
 
+header form > * {
+  margin: 0 3px;
+}
+
 .acoount-section > * {
   margin: 0 10px;
   width: auto;
@@ -168,13 +172,9 @@ header h3 {
 
 header form {
   display: grid;
-  grid-template-columns: 1.5fr 2fr 2fr 0.5fr;  
+  grid-template-columns: 1.5fr 2fr 2fr 0.5fr;
   width: 70%;
   padding: 30px 0;
-}
-
-header form > * {
-  margin: 0 3px;
 }
 
 header input {
