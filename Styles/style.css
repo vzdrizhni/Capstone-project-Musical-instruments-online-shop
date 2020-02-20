@@ -108,7 +108,7 @@ header button {
   color: #888;
   border: none;
   padding: 0 10px;
-  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-family: "Gotham", Arial, sans-serif;
   font-size: 3vh;
   cursor: pointer;
   margin: 0 0 0 10px;
