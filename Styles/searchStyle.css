@@ -125,6 +125,7 @@ header button {
 .acoount-section > * {
   margin: 0 10px;
   width: auto;
+  cursor: pointer;
 }
 
 .acoount-section h5 {
@@ -135,8 +136,9 @@ header button {
   color: #888;
 }
 
-.acoount-section img {
-  display: none;
+nav img {
+  border-radius: 50%;
+  height: 45px;
 }
 
 .hamb-menu {
@@ -148,36 +150,50 @@ header {
   padding: 20px 10%;
   display: grid;
   grid-template-columns: 1fr;
-  justify-items: baseline;
+  justify-items: center;
 }
 
 .slogan {
   font-size: 50px;
   font-family: "Gotham", Arial, Helvetica, sans-serif;
+  color: #fff;
 }
 
 header h3 {
   font-size: 20px;
   padding: 7px 0;
   font-family: "Gotham", Arial, Helvetica, sans-serif;
+  color: #fff;
 }
 
 header form {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr 0.5fr;
-  grid-template-rows: 47px;
-  width: 100%;
+  grid-template-columns: 1.5fr 2fr 2fr 0.5fr;  
+  width: 70%;
   padding: 30px 0;
+}
+
+header form > * {
+  margin: 0 3px;
+}
+
+header input {
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 2.5vh;
+  padding: 10px 3px;
+  align-self: center;
 }
 
 header input::placeholder {
   font-family: "Gotham", Arial, Helvetica, sans-serif;
-  font-size: 3vh;
+  font-size: 2.5vh;
 }
 
 select {
   font-family: "Gotham", Arial, Helvetica, sans-serif;
-  font-size: 3vh;
+  font-size: 2.5vh;
+  padding: 0 3px;
+  color: #888;
 }
 
 .main-search-window {
@@ -536,6 +552,10 @@ footer li {
     padding: 30px 0;
   }
 
+  header input {
+    padding: 8px 3px;
+  }
+
   .top-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -571,21 +591,58 @@ footer li {
     font-size: 30px;
   }
 
+  .slogan h1 {
+    font-size: 20vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  header > h3 {
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  header > * {
+    min-width: 100%;
+  }
+
   header form {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 35px);
     grid-column-gap: 5px;
     width: 100%;
     padding: 30px 0;
+    justify-content: center;
   }
 
   header form > * {
     margin: 3px 0;
+    width: 100%;
+  }
+
+  header input {
+    padding: 2px 0;
   }
 
   .single-product {
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .img-container {
+    width: 100% !important;
+  }
+
+  .produst-description h3 {
+    font-size: 4vw;
+  }
+
+  .produst-description h4 {
+    font-size: 3vw;
   }
 
   .top-section {

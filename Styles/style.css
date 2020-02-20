@@ -107,10 +107,11 @@ header button {
   background-color: #383838;
   color: #888;
   border: none;
-  padding: 0 20px;
+  padding: 0 10px;
   font-family: "Gotham", Arial, Helvetica, sans-serif;
   font-size: 3vh;
   cursor: pointer;
+  margin: 0 0 0 10px;
 }
 
 .nav-elements button {
@@ -157,39 +158,57 @@ nav img {
 
 header {
   background-color: #d35266;
-  padding: 80px 40px;
+  padding: 70px 40px 30px;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
+  max-width: 100%;
 }
 
 .slogan {
   font-size: 50px;
   font-family: "Gotham", Arial, Helvetica, sans-serif;
+  color: #fff;
 }
 
 header h3 {
   font-size: 20px;
-  padding: 7px 0;
+  padding: 7px 0 20px;
   font-family: "Gotham", Arial, Helvetica, sans-serif;
+  color: #fff;
 }
 
 header form {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr 0.5fr;
+  grid-template-columns: 1.5fr 2fr 2fr 0.5fr;
   grid-template-rows: 47px;
-  width: 100%;
+  width: 70%;
   padding: 30px 0;
+}
+
+header form > * {
+  margin: 0 3px;
+}
+
+header input {
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-size: 2.5vh;
+  padding: 10px 3px;
+  color: #888;
 }
 
 header input::placeholder {
   font-family: "Gotham", Arial, Helvetica, sans-serif;
-  font-size: 3vh;
+  font-size: 2.5vh;
+  padding: 10px 3px;
+  align-self: center;
 }
 
 select {
   font-family: "Gotham", Arial, Helvetica, sans-serif;
-  font-size: 3vh;
+  font-size: 2.5vh;
+  padding: 0 3px;
+  color: #888;
 }
 
 main {
@@ -245,31 +264,35 @@ main {
 
 #first-a-link {
   align-self: center;
-  padding: 20px;
+  padding: 1vw;
   border: 1px solid black;
   border-radius: 50%;
   text-decoration: none;
   color: #d35266;
+  text-align: center;
 }
 
 #last-a-link {
   align-self: center;
-  padding: 20px;
+  padding: 1vw;
   border: 1px solid black;
   border-radius: 50%;
   text-decoration: none;
   color: #d35266;
+  text-align: center;
 }
 
 .produst-description p {
   padding: 15px 0;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
+  color: #888;
 }
 
 .produst-description h3 {
   color: #d35266;
   font-size: 3vw;
   padding: 5px 0;
+  line-height: 40px;
 }
 
 .produst-description h4 {
@@ -319,7 +342,7 @@ main {
   border-bottom: 1px solid black;
 }
 
-.guitar-description h1 {
+.guitar-description h2 {
   padding: 10px 10px;
 }
 
@@ -488,7 +511,7 @@ footer li {
   border-bottom: 1px solid #888;
 }
 
-.logo-footer h1 {
+.logo-footer h2 {
   font-family: "Gotham", Arial, Helvetica, sans-serif;
   font-size: 60px;
   font-weight: 700;
@@ -619,6 +642,11 @@ footer li {
     padding: 30px 0;
   }
 
+  .single-product {
+    width: 100%;
+    padding: 10px 5px;
+  }
+
   .guitar-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -667,21 +695,59 @@ footer li {
     font-size: 30px;
   }
 
+  .slogan h1 {
+    font-size: 20vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  header > h3 {
+    font-size: 3.9vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  header > * {
+    min-width: 100%;
+  }
+
   header form {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 35px);
     grid-column-gap: 5px;
     width: 100%;
     padding: 30px 0;
+    justify-content: center;
   }
 
   header form > * {
     margin: 3px 0;
+    width: 100%;
   }
 
   .single-product {
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .produst-description h3 {
+    font-size: 4vw;
+  }
+
+  .produst-description h4 {
+    font-size: 3vw;
+  }
+
+  .produst-description p {
+    font-size: 2.5vw;
+  }
+
+  #first-a-link,
+  #last-a-link {
+    display: none;
   }
 
   .guitar-section {
@@ -699,6 +765,7 @@ footer li {
     border-bottom: 1px solid black;
     white-space: nowrap;
     overflow: hidden;
+    flex-wrap: wrap;
   }
 
   .base-guitar-section {
