@@ -1,8 +1,8 @@
-# Building with responsive design
+# Capstoe Project
 
-> TNW Magazine responsive page.
+> Musical Instruments Online Store.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Assets/Pictures/screenpic.png)
 
 Project description.
 
@@ -13,54 +13,42 @@ Project description.
 
 ## Live Demo
 
-[Live Demo Link](https://patriciachrysy.github.io/Build-responsive-design/)
+:point_right: [Live Demo Link](https://rawcdn.githack.com/vzdrizhni/Capstone-project-Musical-instruments-online-shop/52dd387eb0b8a6b4f1bfeb324ae938d30270d66a/index.html)
+
+## Video
+
+:point_right: [Video presentation link](https://www.loom.com/share/bcdd2783f9004569b54d6b311bbb7d79)
 
 
-## Getting Started
+## About The Project
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+[![Product Name Screen Shot][product-screenshot]](./img/screenshot.png)
 
+This project is a Capstone Project. Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum modules.
 
-To get a local copy up and running follow these simple example steps.
+Here are the objectives for this project:
 
-### Prerequisites
+* Build 2 pages as the minimum requirements
+	* the main page (search page), with a link to the results page
+	* the search results page
 
-- Get your browsers up to date
+* Each of these pages have versions for 2 different screen sizes
+  * mobile: up to 768px
+  * tablet: up to 1024px 
 
-### Setup
+* Followed the guidelines of the given design, including:
+  * colors
+  * typographies: font face, size and weight
+  * layout: composition and space between elements, for the 2 given screen sizes
 
-- Clone the repository on your local machine
-- cd into the folder, find the index.html file and open it
+### Built With
+This project was built using these technologies.
+* HTML
+* CSS3
+* Stickler
+* VsCode
 
-### Install
-
-- Install VSCode or any code editor you like
-- Install Node JS and nmp(most recents versions)
-- Run this command on your terminal in order to install stylelint: npm install stylelint stylelint-config-recommended --save-dev 
-
-### Usage
-
-### Run tests
-
-- Test the css by typing the command: npx stylelint .
-- Go to http://validator.w3.org/ , upload the index.html file to test it.
-
-### Deployment
-
-- Get an online web hosting
-- Upload all the files in the htdocs folder of your domain
-- Access your domain name in browser
-
-
-
-## Authors
-
-👤 Manezeu Patricia Chrystelle
-
-- Github: [@githubhandle](https://github.com/patriciachrysy)
-- Twitter: [@twitterhandle](https://twitter.com/ManezeuP)
-- Linkedin: [linkedin](https://www.linkedin.com/in/manezeu-patricia-chrystelle-095072118/)
+## Author
 
 👤 Roman Nikolaev 
 
@@ -68,21 +56,19 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://twitter.com/metabruta)
 
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page]().
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+## Credit
+
+Original site design by [Mohammed Awad on Behance](https://www.behance.net/gallery/24796463/ZATTIX)
+
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+* [Microverse](https://www.microverse.org/)
+* [The Odin Project](https://www.theodinproject.com/)
+* [HTML Cheat Sheet](https://htmlcheatsheet.com/js/)
 
 ## 📝 License
 
