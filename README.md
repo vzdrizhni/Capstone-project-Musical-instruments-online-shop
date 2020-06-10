@@ -15,9 +15,9 @@ Project description.
 
 :point_right: [Live Demo Link](https://rawcdn.githack.com/vzdrizhni/Capstone-project-Musical-instruments-online-shop/52dd387eb0b8a6b4f1bfeb324ae938d30270d66a/index.html)
 
-## Video
+## WalkThrough Video:
 
-:point_right: [Video presentation link](https://www.loom.com/share/bcdd2783f9004569b54d6b311bbb7d79)
+https://www.loom.com/share/bcdd2783f9004569b54d6b311bbb7d79
 
 
 ## About The Project
