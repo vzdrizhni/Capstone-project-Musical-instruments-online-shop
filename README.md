@@ -40,6 +40,10 @@ Here are the objectives for this project:
   * colors
   * typographies: font face, size and weight
   * layout: composition and space between elements, for the 2 given screen sizes
+  
+## Potential future features
+- Add back-end
+- Improve the front-end
 
 ### Built With
 This project was built using these technologies.
