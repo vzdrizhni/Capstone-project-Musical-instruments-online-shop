@@ -1,4 +1,4 @@
-# Capstoe Project
+# Capstone Project
 
 > Musical Instruments Online Store.
 
