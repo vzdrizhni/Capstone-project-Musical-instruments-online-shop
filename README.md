@@ -72,7 +72,6 @@ Original site design by [Mohammed Awad on Behance](https://www.behance.net/galle
 
 * [Microverse](https://www.microverse.org/)
 * [The Odin Project](https://www.theodinproject.com/)
-* [HTML Cheat Sheet](https://htmlcheatsheet.com/js/)
 
 ## 📝 License
 
